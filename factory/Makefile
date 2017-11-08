@@ -18,4 +18,4 @@ factory: $(target_objs)
 	g++ $(LOCAL_CPPFLAGS) -o $@ $< -I.
 
 clean:
-	rm *.o factory
+	rm *.o factory .*.sw*
